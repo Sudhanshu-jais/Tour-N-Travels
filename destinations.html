@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Destinations | ExploreWorld</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar (same as home) -->
+  <header class="navbar">
+    <h1 class="logo">ExploreWorld</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="destinations.html" class="active">Destinations</a>
+      <a href="packages.html">Packages</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h2>Top Travel Destinations</h2>
+    <p>Explore the world’s most beautiful places</p>
+  </section>
+
+  <!-- Filters -->
+  <section class="destination-controls">
+    <input type="text" id="searchInput" placeholder="Search destination...">
+
+    <select id="regionFilter">
+  <option value="all">All Regions</option>
+  <option value="europe">Europe</option>
+  <option value="asia">Asia</option>
+  <option value="middle east">Middle East</option>
+</select>
+
+  </section>
+
+  <!-- Destinations Grid -->
+  <section class="destination-grid">
+
+    <div class="destination-card" data-name="paris" data-region="europe">
+      <img src="assets/images/paris.jpg" alt="Paris">
+      <div class="destination-info">
+        <h3>Paris</h3>
+        <p>France</p>
+      </div>
+    </div>
+
+    <div class="destination-card" data-name="bali" data-region="asia">
+      <img src="assets/images/bali.jpg" alt="Bali">
+      <div class="destination-info">
+        <h3>Bali</h3>
+        <p>Indonesia</p>
+      </div>
+    </div>
+
+    <div class="destination-card" data-name="dubai" data-region="middle east">
+      <img src="assets/images/dubai.jpg" alt="Dubai">
+      <div class="destination-info">
+        <h3>Dubai</h3>
+        <p>UAE</p>
+      </div>
+    </div>
+
+    <div class="destination-card" data-name="switzerland" data-region="europe">
+      <img src="assets/images/switzerland.jpg" alt="Switzerland">
+      <div class="destination-info">
+        <h3>Switzerland</h3>
+        <p>Europe</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 ExploreWorld. All rights reserved.</p>
+  </footer>
+    <script src="js/destinations.js"></script>
+
+</body>
+</html>
